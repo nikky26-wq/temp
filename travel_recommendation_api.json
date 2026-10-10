@@ -1,0 +1,46 @@
+
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Japan",
+        "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+        "description": "Discover Japan's beautiful temples, cities, and culture."
+      },
+      {
+        "id": 2,
+        "name": "Australia",
+        "image": "https://images.unsplash.com/photo-1506973035872-a4f4f3e7f9f7",
+        "description": "Explore Australia's amazing landscapes and beaches."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 3,
+        "name": "Bora Bora Beach",
+        "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+        "description": "Enjoy beautiful turquoise water and white sand."
+      },
+      {
+        "id": 4,
+        "name": "Copacabana Beach",
+        "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+        "description": "Visit a famous beach in Rio de Janeiro."
+      }
+    ],
+    "temples": [
+      {
+        "id": 5,
+        "name": "Angkor Wat Temple",
+        "image": "https://images.unsplash.com/photo-1604999333679-b86d54738315",
+        "description": "Explore Cambodia's historic temple complex."
+      },
+      {
+        "id": 6,
+        "name": "Kinkaku-ji Temple",
+        "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+        "description": "Discover Kyoto's famous Golden Pavilion."
+      }
+    ]
+  }
+  

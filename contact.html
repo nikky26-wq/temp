@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Travel Explorer</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">Travel Explorer</a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a class="active" href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h1>Contact Us</h1>
+      <p>Have a question or suggestion? Send us a message.</p>
+    </section>
+
+    <section class="page-content">
+      <h2>Contact Information</h2>
+      <p>
+        Email:
+        <a href="mailto:YOUR_EMAIL@example.com">
+          nikky24@gmail.com
+        </a>
+      </p>
+      <p>We welcome your questions, suggestions, and travel feedback.</p>
+
+      <form
+        class="contact-form"
+        action="mailto:YOUR_EMAIL@example.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Your Name</label>
+        <input
+          id="name"
+          name="Name"
+          type="text"
+          placeholder="Enter your name"
+          required
+        >
+
+        <label for="email">Your Email</label>
+        <input
+          id="email"
+          name="Email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        >
+
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          name="Message"
+          rows="5"
+          placeholder="Write your message"
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Travel Explorer</p>
+  </footer>
+</body>
+</html>

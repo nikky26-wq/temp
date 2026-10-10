@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">Travel Explorer</a>
+
+    <nav>
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="search-bar">
+      <input id="searchInput" type="text"
+        placeholder="Search destinations...">
+      <button id="searchBtn">Search</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">DISCOVER YOUR NEXT ADVENTURE</p>
+        <h1>Explore the World.<br>Make Memories.</h1>
+        <p>Discover beautiful beaches, historic temples,
+          and amazing destinations around the world.</p>
+        <a href="#recommendations" class="button-link">
+          Explore Destinations
+        </a>
+      </div>
+    </section>
+
+    <section id="recommendations" class="section">
+      <div class="section-heading">
+        <h2>Travel Recommendations</h2>
+        <p id="statusMessage">
+          Search for Japan, Australia, beach, or temple.
+        </p>
+      </div>
+
+      <div id="results" class="results-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Travel Explorer</p>
+  </footer>
+</body>
+</html>
